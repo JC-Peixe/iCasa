@@ -11,9 +11,11 @@ function App() {
           Igreja Casa
         </p>
         <p className='slogan'>
-          <span>Y soy</span> <span>Rebelde,</span> <span>Cuano no sigo</span> <span>a los demás,</span> <span>Y soy</span> <span>Rebelde.</span>
+          <span>Um</span> <span>Igreja</span> <span>Em</span> <span>Comunidade,</span> <span>Somos</span> <span>a Casa.</span>
         </p>
-        <iframe title="deezer-widget" src="https://widget.deezer.com/widget/auto/track/1065541812" width="100%" height="300" frameborder="0" allowtransparency="true" allow="autoPlay; encrypted-media; clipboard-write; fullscreen; picture-in-picture "></iframe>
+        <iframe width="420" height="315"
+src="https://www.youtube.com/embed/Xzbj3r3h7ps?autoplay=1&mute=1">
+</iframe>
         
         {/* <a
           className="App-link"
