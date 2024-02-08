@@ -25,9 +25,20 @@
   .slogan :nth-child(5){animation: Slogan-opacity  7s forwards;}
   .slogan :nth-child(6){animation: Slogan-opacity  7.5s forwards;}
 }
-
+/* (#63ffcb,#00a2ff); */
+/* (#5ce1e2, #8d53ff) */
 .App-header {
-  background: linear-gradient(#5ce1e2, #8d53ff);
+  /* background: linear-gradient(to bottom right, #00224f,#00224f,#2e00ba, #b4006e, #6600a6 ); */
+  background: linear-gradient(to bottom, #00224f, rgba(255,0,0,0) 70.71%), 
+  linear-gradient(to right, #b4006e, rgba(0,255,0,0) 70.71%),
+            linear-gradient(to bottom right, #00224f, rgba(255,0,0,0) 50.71%),
+            linear-gradient(to bottom left, #00224f, rgba(255,0,0,0) 70.71%),
+            linear-gradient(to left, #2e00ba, rgba(0,0,255,0) 50.71%),
+            linear-gradient(to top left, #2e00ba, rgba(0,0,255,0) 30.71%),
+            linear-gradient(to bottom right, #b4006e, rgba(0,0,255,0) 70.71%),
+            linear-gradient(360deg, #b4006e, rgba(0,0,255,0) 70.71%),
+            linear-gradient(336deg, #b4006e, rgba(0,0,255,0) 70.71%)
+            ;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -38,12 +49,12 @@
 }
 .title{
   font-family: 'Roboto', sans-serif;
-  color: #282c34;
+  color: #cdcecf;
   
 }
 .slogan{
   font-family: 'Roboto', sans-serif;
-  color: #282c34;
+  color: #cbcdcf;
 }
 .App-link {
   color: #61dafb;

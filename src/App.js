@@ -1,4 +1,5 @@
 import logo from './Logo-casa-transparent.png';
+// import  rbd  from './RBD - Rebelde.mp3'
 import './App.css';
 
 function App() {
@@ -10,8 +11,10 @@ function App() {
           Igreja Casa
         </p>
         <p className='slogan'>
-          <span>Mais</span> <span>que</span> <span>uma</span> <span>Igreja,</span> <span>um</span> <span>Lar.</span>
+          <span>Y soy</span> <span>Rebelde,</span> <span>Cuano no sigo</span> <span>a los demás,</span> <span>Y soy</span> <span>Rebelde.</span>
         </p>
+        <iframe title="deezer-widget" src="https://widget.deezer.com/widget/auto/track/1065541812" width="100%" height="300" frameborder="0" allowtransparency="true" allow="autoPlay; encrypted-media; clipboard-write; fullscreen; picture-in-picture "></iframe>
+        
         {/* <a
           className="App-link"
           href="https://reactjs.org"
