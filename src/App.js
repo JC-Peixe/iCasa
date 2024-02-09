@@ -1,4 +1,4 @@
-import logo from './Logo-casa-transparent.png';
+import logo from './LOGO-CASA-TRANSPARENTE.png';
 // import  rbd  from './RBD - Rebelde.mp3'
 import './App.css';
 

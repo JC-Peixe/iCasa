@@ -29,16 +29,17 @@
 /* (#5ce1e2, #8d53ff) */
 .App-header {
   /* background: linear-gradient(to bottom right, #00224f,#00224f,#2e00ba, #b4006e, #6600a6 ); */
-  background: linear-gradient(to bottom, #00224f, rgba(255,0,0,0) 70.71%), 
-  linear-gradient(to right, #b4006e, rgba(0,255,0,0) 70.71%),
-            linear-gradient(to bottom right, #00224f, rgba(255,0,0,0) 50.71%),
-            linear-gradient(to bottom left, #00224f, rgba(255,0,0,0) 70.71%),
+  background: linear-gradient(to bottom, #363792, rgba(255,0,0,0) 70.71%), 
+  linear-gradient(to right, #b313ff, rgba(0,255,0,0) 70.71%),
+            /* linear-gradient(to bottom right, #363792, rgba(255,0,0,0) 50.71%),
+            linear-gradient(to bottom left, #363792, rgba(255,0,0,0) 70.71%),
             linear-gradient(to left, #2e00ba, rgba(0,0,255,0) 50.71%),
-            linear-gradient(to top left, #2e00ba, rgba(0,0,255,0) 30.71%),
-            linear-gradient(to bottom right, #b4006e, rgba(0,0,255,0) 70.71%),
-            linear-gradient(360deg, #b4006e, rgba(0,0,255,0) 70.71%),
-            linear-gradient(336deg, #b4006e, rgba(0,0,255,0) 70.71%)
+            linear-gradient(to top left, #2e00ba, rgba(0,0,255,0) 30.71%), */
+            linear-gradient(to bottom right, #b313ff, rgba(0,0,255,0) 70.71%),
+            linear-gradient(360deg, #b313ff, rgba(0,0,255,0) 70.71%),
+            linear-gradient(336deg, #b313ff, rgba(0,0,255,0) 70.71%)
             ;
+            /* background-image: url(fundo-logo.jpeg); */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
