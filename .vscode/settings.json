@@ -1,3 +1,7 @@
 {
-    "editor.wordWrap": "on"
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.wordWrap": "on",
+    "editor.renderLineHighlight": "gutter",
+    "editor.fontLigatures": true,
+    "explorer.compactFolders": false,
 }

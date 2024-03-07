@@ -9,11 +9,15 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin 5s linear;
+    animation: App-logo-display 5s linear;
   }
   .title{
-    animation: App-logo-spin 2s linear;
+    animation: App-logo-display 2s linear;
   }
+  .App-logo {
+    animation: App-logo-reduce 10s linear;
+  }
+
   /* .slogan :nth-child(1){animation: App-logo-spin 2s linear;} */
 }
 @media (prefers-reduced-motion: no-preference) {
@@ -27,19 +31,18 @@
 }
 /* (#63ffcb,#00a2ff); */
 /* (#5ce1e2, #8d53ff) */
+
+/* #09015b #38006f #4e0078 #020355 #010230 #000465 #000467*/
 .App-header {
-  /* background: linear-gradient(to bottom right, #00224f,#00224f,#2e00ba, #b4006e, #6600a6 ); */
-  background: linear-gradient(to bottom, #363792, rgba(255,0,0,0) 70.71%), 
-  linear-gradient(to right, #b313ff, rgba(0,255,0,0) 70.71%),
-            /* linear-gradient(to bottom right, #363792, rgba(255,0,0,0) 50.71%),
-            linear-gradient(to bottom left, #363792, rgba(255,0,0,0) 70.71%),
-            linear-gradient(to left, #2e00ba, rgba(0,0,255,0) 50.71%),
-            linear-gradient(to top left, #2e00ba, rgba(0,0,255,0) 30.71%), */
-            linear-gradient(to bottom right, #b313ff, rgba(0,0,255,0) 70.71%),
-            linear-gradient(360deg, #b313ff, rgba(0,0,255,0) 70.71%),
-            linear-gradient(336deg, #b313ff, rgba(0,0,255,0) 70.71%)
+ 
+  background: linear-gradient(to bottom, #010230, rgba(255,0,0,0) 70.71%), 
+              linear-gradient(to right, #4e0078, rgba(0,255,0,0) 70.71%),
+              linear-gradient(to right, #000467, rgba(0,0,255,0) 30.71%),
+              linear-gradient(to left, #2e00ba, rgba(0,0,255,0) 50.71%),
+              linear-gradient(to bottom right, #4e0078, rgba(0,0,255,0) 90.71%),
+              linear-gradient(360deg, #09015b, rgba(0,0,255,0) 90.71%),
+              linear-gradient(336deg, #09015b, rgba(0,0,255,0) 90.71%)
             ;
-            /* background-image: url(fundo-logo.jpeg); */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -61,7 +64,7 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
+@keyframes App-logo-display {
   0% {
     opacity: 0;
   }
@@ -75,6 +78,18 @@
     opacity: 100;
   }
 }
+@keyframes App-logo-reduce{
+  0%{
+    
+  }
+  60%{
+
+  }
+  70%{
+    translate:calc(0,0);
+  }
+}
+
 @keyframes Slogan-opacity {
   0% {
     opacity: 0;
