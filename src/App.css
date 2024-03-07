@@ -1,3 +1,14 @@
+*:root{
+  background: linear-gradient(to bottom, #010230, rgba(255,0,0,0) 70.71%), 
+  linear-gradient(to right, #4e0078, rgba(0,255,0,0) 70.71%),
+  linear-gradient(to right, #000467, rgba(0,0,255,0) 30.71%),
+  linear-gradient(to left, #2e00ba, rgba(0,0,255,0) 50.71%),
+  linear-gradient(to bottom right, #4e0078, rgba(0,0,255,0) 90.71%),
+  linear-gradient(360deg, #09015b, rgba(0,0,255,0) 90.71%),
+  linear-gradient(336deg, #09015b, rgba(0,0,255,0) 90.71%)
+;
+}
+
 .App {
   text-align: center;
 }
@@ -35,14 +46,14 @@
 /* #09015b #38006f #4e0078 #020355 #010230 #000465 #000467*/
 .App-header {
  
-  background: linear-gradient(to bottom, #010230, rgba(255,0,0,0) 70.71%), 
+  /* background: linear-gradient(to bottom, #010230, rgba(255,0,0,0) 70.71%), 
               linear-gradient(to right, #4e0078, rgba(0,255,0,0) 70.71%),
               linear-gradient(to right, #000467, rgba(0,0,255,0) 30.71%),
               linear-gradient(to left, #2e00ba, rgba(0,0,255,0) 50.71%),
               linear-gradient(to bottom right, #4e0078, rgba(0,0,255,0) 90.71%),
               linear-gradient(360deg, #09015b, rgba(0,0,255,0) 90.71%),
               linear-gradient(336deg, #09015b, rgba(0,0,255,0) 90.71%)
-            ;
+            ; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;

@@ -6,10 +6,13 @@ import Oferta from './paginas/ofertas';
 import QuemSomos from './paginas/quem_somos';
 import Cronograma from './paginas/cronograma';
 import NaRua from './paginas/Atividades';
+import Menu from './componentes/Menu';
 
-function App() {
+function AppRoutes() {
   return (
+
     <BrowserRouter>
+      <Menu/>
       <Routes>
        <Route path='/' element={<Bemvindo />} />
        <Route path='/agenda' element={<Cronograma/>}/>
@@ -25,4 +28,4 @@ function App() {
   );
 }
 
-export default App;
+export default AppRoutes;
