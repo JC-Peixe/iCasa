@@ -1,5 +1,10 @@
-export default function QuemSomos(){
-    return (
-      <h1>Quem somos?</h1>  
-    )
+import Menu from "../../componentes/Menu";
+
+export default function QuemSomos() {
+  return (
+    <div>
+      <Menu />
+      <h1>Quem somos?</h1>
+    </div>
+  );
 }

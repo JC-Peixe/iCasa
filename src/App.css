@@ -28,6 +28,9 @@
   .App-logo {
     animation: App-logo-reduce 10s linear;
   }
+  .Menubar {
+    animation: Menu-bar 10s linear;
+  }
 
   /* .slogan :nth-child(1){animation: App-logo-spin 2s linear;} */
 }
@@ -89,17 +92,24 @@
     opacity: 100;
   }
 }
-@keyframes App-logo-reduce{
-  0%{
-    
+@keyframes Menu-bar {
+  0% {
+    opacity: 0;
   }
-  60%{
-
+  20%{
+    opacity: 0;
   }
-  70%{
-    translate:calc(0,0);
+  50%{
+    opacity: 0;
+  }
+  80%{
+    opacity: 50;
+  }
+  100% {
+    opacity: 100;
   }
 }
+
 
 @keyframes Slogan-opacity {
   0% {

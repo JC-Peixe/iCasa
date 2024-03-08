@@ -1,0 +1,31 @@
+.Menubar{
+    display: none;
+}
+@media (prefers-reduced-motion: no-preference) {
+    
+    .menubar {
+      animation: Menu-bar 10s linear;
+    }
+  
+    /* .slogan :nth-child(1){animation: App-logo-spin 2s linear;} */
+  }
+  @keyframes Menu-bar {
+    0% {
+      opacity: 0;
+    }
+    20%{
+      opacity: 0;
+    }
+    50%{
+      opacity: 0;
+    }
+    80%{
+      opacity: 30;
+    }
+    90%{
+        opacity: 60;
+    }
+    100% {
+      opacity: 100;
+    }
+  }
