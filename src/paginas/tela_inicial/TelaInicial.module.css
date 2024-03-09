@@ -7,7 +7,6 @@
       animation: Menu-bar 10s linear;
     }
   
-    /* .slogan :nth-child(1){animation: App-logo-spin 2s linear;} */
   }
   @keyframes Menu-bar {
     0% {
