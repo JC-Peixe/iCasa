@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import Menu from "../../componentes/Menu";
 import styles from "./TelaInicial.module.css"
 
