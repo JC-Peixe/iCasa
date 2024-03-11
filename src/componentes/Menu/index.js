@@ -13,7 +13,7 @@ export default function Menu(){
                     Quem Somos
                 </MenuLink> 
                 <MenuLink to='/narua'>
-                    Nós na Rua
+                    Ações
                 </MenuLink> 
                 <MenuLink to='/agenda'>
                     Agenda

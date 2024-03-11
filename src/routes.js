@@ -5,7 +5,7 @@ import Inicio from "./paginas/inicio";
 import Oferta from "./paginas/ofertas";
 import QuemSomos from "./paginas/quem_somos";
 import Cronograma from "./paginas/cronograma";
-import NaRua from "./paginas/Atividades";
+import NaRua from "./paginas/acoes";
 // import Menu from "./componentes/Menu";
 
 function AppRoutes() {

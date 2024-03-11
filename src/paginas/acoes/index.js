@@ -1,11 +1,13 @@
 import Post from "componentes/Post";
-import Menu from "../../componentes/Menu";
+import Menu from "componentes/Menu";
 import styles from "./NaRua.module.css";
 
 import posts from "json/posts.json";
 
 export default function NaRua() {
   return (
+    <main>
+
     <div>
       <Menu />
       <ul className={styles.posts}>
@@ -17,5 +19,6 @@ export default function NaRua() {
         ))}
         </ul>
     </div>
+        </main>
   );
 }
