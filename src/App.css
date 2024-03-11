@@ -125,3 +125,11 @@
     opacity: 100;
   }
 }
+@media (max-width: 400px) {
+  .video-musica {
+      height: 150px;
+      width: 200px;
+      
+      
+  }
+}

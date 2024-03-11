@@ -23,6 +23,7 @@ export default function Bemvindo() {
           <span>de Adoração.</span>
         </p>
         <iframe
+        className="video-musica"
           width="420"
           height="315"
           src="https://www.youtube.com/embed/6uiX1QSYUl8?autoplay=1&mute=1"
