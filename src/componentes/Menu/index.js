@@ -9,16 +9,16 @@ export default function Menu(){
                <MenuLink to="/inicio">
                 Início
                </MenuLink>
-                <MenuLink to="/quemsomos">
+                <MenuLink to="/inicio">
                     Quem Somos
                 </MenuLink> 
-                <MenuLink to='/narua'>
-                    Ações
+                <MenuLink to='/inicio'>
+                    Atividades
                 </MenuLink> 
-                <MenuLink to='/agenda'>
+                <MenuLink to='/inicio'>
                     Agenda
                 </MenuLink> 
-                <MenuLink  to='/ofertas'>
+                <MenuLink  to='/inicio'>
                     Ofertas
                 </MenuLink>
             </nav>
