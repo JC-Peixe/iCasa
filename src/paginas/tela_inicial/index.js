@@ -17,11 +17,11 @@ export default function Bemvindo() {
         {/* <button>
           <Link to="/inicio">Visite nosso Site</Link>
         </button> */}
-        <p className="slogan">
+        {/* <p className="slogan">
           <span>Um</span> <span>Lugar</span> <span>de</span>{" "}
           <span>Acolhimento,</span> <span>uma Casa</span>{" "}
           <span>de Adoração.</span>
-        </p>
+        </p> */}
         <iframe
         className="video-musica"
           width="420"

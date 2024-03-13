@@ -1,4 +1,4 @@
-import styles from "./NaRua.module.css";
+import styles from "./Acoes.module.css";
 
 import Menu from "componentes/Menu";
 import posts from "json/posts.json";
@@ -10,7 +10,7 @@ export default function NaRua() {
       <Menu />
       <ul className={styles.posts}>
         {posts.map((post) => (
-          <li key={post.id}>
+          <li key={post.id} className={styles.liPost}>
             <Post post={post} />
           </li>
          )

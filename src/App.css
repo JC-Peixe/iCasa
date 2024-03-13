@@ -1,4 +1,5 @@
-*:root{
+
+:root{
   background: linear-gradient(to bottom, #010230, rgba(255,0,0,0) 70.71%), 
   linear-gradient(to right, #4e0078, rgba(0,255,0,0) 70.71%),
   linear-gradient(to right, #000467, rgba(0,0,255,0) 30.71%),
@@ -7,6 +8,7 @@
   linear-gradient(360deg, #09015b, rgba(0,0,255,0) 90.71%),
   linear-gradient(336deg, #09015b, rgba(0,0,255,0) 90.71%)
 ;
+
 }
 
 .App {
